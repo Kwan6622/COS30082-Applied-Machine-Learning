@@ -1,104 +1,110 @@
-COS30082 - Applied Machine Learning
-This repository contains my coursework, weekly exercises, laboratory work, notes, and experiments for COS30082 - Applied Machine Learning at Swinburne University of Technology.
-The unit focuses on applying machine learning techniques to complex real-world problems, with emphasis on practical implementation, data preparation, model evaluation, deployment, optimisation, and communication rather than only machine learning theory.      
-Unit Information
-- Unit Code: COS30082
-- Unit Name: Applied Machine Learning
-- Credit Points: 12.5
-- Delivery Mode: Face to Face
-- Campus: Swinburne Vietnam
-- Duration: One semester
-- Assessment:
-  - Portfolio: 60%
-  - Group Project: 40%
-Learning Outcomes
+# COS30082 — Applied Machine Learning
+
+Coursework repository for **COS30082 — Applied Machine Learning** at Swinburne University of Technology.
+
+This repository documents my work throughout the unit, including weekly exercises, laboratory activities, notebooks, machine learning experiments, datasets, model training, evaluation, and supporting notes.
+
+The unit focuses on the practical application of machine learning to real-world problems, covering the full workflow from data preparation and model development to evaluation, optimisation, deployment, and communication.
+
+## Course Overview
+
+| Item | Details |
+| --- | --- |
+| **Unit code** | COS30082 |
+| **Unit name** | Applied Machine Learning |
+| **University** | Swinburne University of Technology |
+| **Campus** | Swinburne Vietnam |
+| **Credit points** | 12.5 |
+| **Duration** | One semester |
+| **Delivery mode** | Face to face |
+| **Portfolio** | 60% |
+| **Group project** | 40% |
+
+## Learning Outcomes
+
 By completing this unit, students are expected to be able to:
+
 1. Explain the machine learning life cycle.
 2. Apply appropriate data engineering techniques for data preparation.
 3. Analyse and apply advanced machine learning algorithms to complex real-world problems.
 4. Evaluate, deploy, and optimise machine learning solutions.
 5. Interpret and communicate machine learning project outcomes effectively to domain-specific users.
-These learning outcomes are defined in the COS30082 unit outline.      
-Topics Covered
-The unit covers areas including:
-- Machine Learning Life Cycle
-- Data Engineering and Data Pre-processing
-- Supervised Learning
-- Artificial Neural Networks
-- Deep Neural Networks
-- Convolutional Neural Networks
-- Transfer Learning
-- Object Detection
-- Facial Recognition
-- Generative Deep Learning
-- Natural Language Processing
-- Large Language Models
-- Multimodal AI Systems
-- Semi-supervised Learning
-- Reinforcement Learning
-- Model Evaluation
-- Model Optimisation
-- Model Deployment and Maintenance
-- Machine Learning Project Documentation and Communication
-The broader unit content also includes advanced supervised learning, semi-supervised and transfer learning, deep learning, reinforcement learning, model optimisation, and deployment.      
-Weekly Schedule
-Week	Topic
-Week 1	Introduction to Machine Learning
-Week 2	Overview of Machine Learning Algorithms
-Week 3	Artificial Neural Networks and Deep Neural Networks
-Week 4	Convolutional Neural Networks
-Week 5	Transfer Learning
-Week 6	Object Detection
-Week 7	Facial Recognition
-Week 8	Generative Deep Learning
-Week 9	Natural Language Processing
-Week 10	Large Language Models
-Week 11	Multimodal AI Systems and Applications
-Week 12	Project Interview
 
+## Course Roadmap
 
-The weekly teaching schedule progresses from introductory machine learning concepts through deep learning, computer vision, generative AI, NLP, LLMs, and multimodal systems.            
-Repository Structure
-- lab/
-  - lab1/
-  - ...
-  - lab12/
-- week_1/
-- ...
-- week_12/
-Folder Organization
-lab/
-The lab directory contains practical laboratory exercises completed throughout the semester.
-Each lab is separated into its corresponding folder:
-- lab1/ - Lab 1 exercises and files
-- lab2/ - Lab 2 exercises and files
-- lab3/ - Lab 3 exercises and files
-- ...
-- lab12/ - Lab 12 exercises and files
-Depending on the lab, these folders may contain:
-- Jupyter Notebooks
+| Week | Topic | Area |
+| --- | --- | --- |
+| 01 | Introduction to Machine Learning | ML Fundamentals |
+| 02 | Overview of Machine Learning Algorithms | Classical ML |
+| 03 | Artificial Neural Networks & Deep Neural Networks | Deep Learning |
+| 04 | Convolutional Neural Networks | Computer Vision |
+| 05 | Transfer Learning | Deep Learning |
+| 06 | Object Detection | Computer Vision |
+| 07 | Facial Recognition | Computer Vision |
+| 08 | Generative Deep Learning | Generative AI |
+| 09 | Natural Language Processing | NLP |
+| 10 | Large Language Models | LLM |
+| 11 | Multimodal AI Systems & Applications | Multimodal AI |
+| 12 | Project Interview | Project |
+
+The unit progresses from traditional machine learning concepts into neural networks, computer vision, generative AI, NLP, large language models, and multimodal AI systems.
+
+## Repository Structure
+
+```text
+COS30082-Applied-Machine-Learning/
+├── lab/
+│   ├── lab1/
+│   ├── ...
+│   └── lab12/
+├── week_1/
+├── ...
+├── week_12/
+└── README.md
+```
+
+## Repository Organisation
+
+### `lab/`
+
+Contains practical laboratory work completed throughout the semester.
+
+Individual lab folders may include:
+
+- Jupyter notebooks
 - Python scripts
 - Datasets
-- Trained models
-- Experiment results
+- Data preprocessing
+- Model training
+- Model evaluation
 - Visualisations
+- Experiment results
 - Supporting documentation
-week_1/ to week_12/
-The weekly folders contain materials related to the topic covered during each teaching week.
-They may include:
+
+### `week_1/` — `week_12/`
+
+Contains weekly coursework and material associated with each teaching topic.
+
+Weekly folders may include:
+
 - Lecture exercises
 - Practice notebooks
-- Machine learning experiments
 - Notes
 - Example implementations
 - Dataset exploration
+- Machine learning experiments
 - Model training
 - Model evaluation
 - Additional exercises
-Weekly Content
-Week 1 - Introduction to Machine Learning
-Introduction to fundamental machine learning concepts and the machine learning development lifecycle.
-Topics may include:
+
+## Weekly Content
+
+### Week 1 — Introduction to Machine Learning
+
+Introduction to the machine learning workflow and the main stages involved in developing an ML solution.
+
+**Key concepts**
+
 - Machine learning workflow
 - Problem definition
 - Data collection
@@ -106,134 +112,251 @@ Topics may include:
 - Training and testing
 - Model evaluation
 - Machine learning applications
-Week 2 - Overview of Machine Learning Algorithms
-Exploration of common machine learning algorithms and their applications.
-Topics may include:
+
+### Week 2 — Machine Learning Algorithms
+
+Overview of common machine learning approaches and algorithms.
+
+**Key concepts**
+
 - Regression
 - Classification
 - Supervised learning
 - Unsupervised learning
 - Model selection
 - Training and evaluation
-Week 3 - Artificial Neural Networks and Deep Neural Networks
-Introduction to neural networks and deep learning.
-Topics may include:
+
+### Week 3 — Artificial Neural Networks
+
+Introduction to neural networks and deep learning architectures.
+
+**Key concepts**
+
 - Artificial neurons
-- Network architecture
+- Neural network architecture
 - Activation functions
 - Forward propagation
 - Backpropagation
 - Gradient descent
 - Loss functions
 - Deep neural networks
-Week 4 - Convolutional Neural Networks
-Introduction to Convolutional Neural Networks for image-related machine learning problems.
-Topics may include:
+
+### Week 4 — Convolutional Neural Networks
+
+Applying deep learning techniques to image data.
+
+**Key concepts**
+
 - Convolution operations
 - Filters and kernels
 - Feature maps
 - Pooling
 - CNN architectures
 - Image classification
-Week 5 - Transfer Learning
-Using pre-trained neural networks to solve new machine learning problems.
-Topics may include:
+
+### Week 5 — Transfer Learning
+
+Using existing pre-trained neural networks to solve new machine learning problems.
+
+**Key concepts**
+
 - Pre-trained models
 - Feature extraction
 - Fine-tuning
 - Transfer learning workflows
 - Model adaptation
-Week 6 - Object Detection
-Application of deep learning to object detection problems.
-Topics may include:
+
+### Week 6 — Object Detection
+
+Applying computer vision models to detect and localise objects within images.
+
+**Key concepts**
+
 - Object localisation
 - Bounding boxes
-- Object detection pipelines
-- Detection confidence
-- Model evaluation
-Week 7 - Facial Recognition
-Exploration of machine learning and deep learning techniques related to facial recognition.
-Topics may include:
+- Detection pipelines
+- Confidence scores
+- Object detection evaluation
+
+### Week 7 — Facial Recognition
+
+Exploring deep learning techniques used for face detection and recognition.
+
+**Key concepts**
+
 - Face detection
 - Feature extraction
 - Face embeddings
-- Face similarity
-- Recognition pipelines
-Week 8 - Generative Deep Learning
-Introduction to generative models and Generative Adversarial Networks.
-Topics may include:
+- Similarity measurement
+- Facial recognition pipelines
+
+### Week 8 — Generative Deep Learning
+
+Introduction to generative neural networks and Generative Adversarial Networks.
+
+**Key concepts**
+
 - Generative models
 - Generator networks
 - Discriminator networks
 - GAN architecture
 - GAN training
 - Synthetic data generation
-Week 9 - Natural Language Processing
-Application of machine learning techniques to text and natural language.
-Topics may include:
+
+### Week 9 — Natural Language Processing
+
+Applying machine learning and deep learning to text data.
+
+**Key concepts**
+
 - Text preprocessing
 - Tokenisation
 - Text representation
-- Classification
 - Embeddings
+- Text classification
 - NLP pipelines
-Week 10 - Large Language Models
-Introduction to modern Large Language Models and their applications.
-Topics may include:
-- Transformer-based models
+
+### Week 10 — Large Language Models
+
+Introduction to modern language models and transformer-based AI systems.
+
+**Key concepts**
+
+- Transformer architectures
 - Language modelling
 - Prompting
 - Model inference
 - LLM applications
-- Limitations of large language models
-Week 11 - Multimodal AI Systems and Applications
-Exploration of AI systems capable of processing multiple forms of information.
-Topics may include:
+- LLM limitations
+
+### Week 11 — Multimodal AI Systems
+
+Exploring systems capable of working with multiple data modalities.
+
+**Key concepts**
+
 - Text
 - Images
 - Vision-language models
 - Multimodal learning
 - Multimodal AI applications
-The group project is due at the end of Week 11.      
-Week 12 - Project Interview
-The final week focuses on the project interview and discussion of the completed machine learning project.
-Assessment
-Portfolio - 60%
-The portfolio is an individual assessment developed throughout the semester.
-It is associated with the weekly coursework and practical machine learning activities.
-Project - 40%
-The project is a group assessment that requires students to apply the knowledge and techniques developed throughout the unit to a machine learning problem.
-The project is due at the end of Week 11, followed by the project interview in Week 12.      
-Technologies
-Technologies used throughout this repository may include:
-- Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- TensorFlow
-- PyTorch
-- OpenCV
-- Deep Learning frameworks
-- Machine Learning libraries
-Additional libraries may be introduced depending on the requirements of individual labs and weekly exercises.
-Repository Purpose
-This repository is used to:
-- Track my progress throughout COS30082.
-- Store weekly machine learning exercises.
-- Organise laboratory work.
-- Experiment with different machine learning algorithms.
-- Practise data preprocessing and data engineering.
-- Build and evaluate machine learning models.
-- Explore deep learning and modern AI techniques.
-- Maintain a record of practical work completed during the semester.
-Generative AI Usage
-The COS30082 unit outline permits the use of generative AI for assessments. When generative AI tools are used, the assessment must include a short appendix statement explaining which tools were used and how they were used.      
-Any AI-assisted work in this repository should therefore follow the unit requirements and Swinburne University's academic integrity policies.
-Academic Integrity
-This repository is intended for personal learning, coursework organisation, and portfolio development.
-All submitted work should follow Swinburne University's academic integrity requirements, including appropriate acknowledgement of external sources, code, datasets, and generative AI tools where applicable.
-Disclaimer
-This is a personal student repository for COS30082 - Applied Machine Learning.
-It is not an official Swinburne University repository, and the materials in this repository should not be treated as official course documentation. Course structure, assessments, and teaching content should always be confirmed through the official unit materials and Canvas.
+
+> The group project is due at the end of Week 11.
+
+### Week 12 — Project Interview
+
+The final week focuses on presenting and discussing the completed machine learning project.
+
+**Topics include**
+
+- Project design decisions
+- Machine learning methodology
+- Model performance
+- Evaluation results
+- Limitations
+- Potential improvements
+
+## Core Areas
+
+The unit covers a broad range of applied machine learning topics:
+
+| Area | Topics |
+| --- | --- |
+| **Machine Learning** | ML life cycle, regression, classification, supervised learning |
+| **Data Engineering** | Data preparation, pre-processing, feature engineering |
+| **Deep Learning** | ANN, DNN, CNN |
+| **Computer Vision** | Image classification, object detection, facial recognition |
+| **Transfer Learning** | Pre-trained models, feature extraction, fine-tuning |
+| **Generative AI** | Generative deep learning, GANs |
+| **Natural Language Processing** | Text processing, embeddings, NLP models |
+| **Large Language Models** | Transformers, prompting, LLM applications |
+| **Multimodal AI** | Vision-language models, multimodal systems |
+| **ML Engineering** | Evaluation, optimisation, deployment, maintenance |
+
+## Technology Stack
+
+The exact tools used may vary between weekly activities and labs.
+
+| Category | Technologies |
+| --- | --- |
+| **Programming** | Python, Jupyter Notebook |
+| **Data processing** | NumPy, Pandas |
+| **Visualisation** | Matplotlib |
+| **Machine learning** | Scikit-learn |
+| **Deep learning** | TensorFlow, PyTorch |
+| **Computer vision** | OpenCV |
+
+Additional libraries and frameworks may be introduced depending on individual laboratory and assessment requirements.
+
+## Assessment
+
+### Portfolio — 60%
+
+Individual portfolio work completed throughout the semester.
+
+The portfolio is developed progressively through weekly coursework, exercises, and applied machine learning activities.
+
+### Group Project — 40%
+
+A group machine learning project requiring the application of techniques developed throughout the unit.
+
+## Timeline
+
+| Stage | Time |
+| --- | --- |
+| **Project development** | Throughout semester |
+| **Project submission** | End of Week 11 |
+| **Project interview** | Week 12 |
+
+## Repository Goals
+
+This repository serves as a record of my progress throughout COS30082 and is used to:
+
+- Organise weekly coursework and laboratories
+- Document data preprocessing and feature engineering
+- Implement machine learning algorithms
+- Train and evaluate models
+- Explore neural networks and deep learning
+- Work with computer vision techniques
+- Explore NLP and large language models
+- Experiment with multimodal AI systems
+- Maintain a structured record of practical machine learning work
+
+## Generative AI Usage
+
+Generative AI tools are permitted for assessments in this unit.
+
+When generative AI is used, the assessment should include a short declaration describing:
+
+- The AI tool used
+- How the tool was used
+- Which parts of the work were assisted by AI
+
+All AI-assisted work should follow the unit requirements and Swinburne University's academic integrity policies.
+
+## Academic Integrity
+
+This repository is maintained for:
+
+- Personal learning
+- Coursework organisation
+- Experimentation
+- Portfolio development
+
+All submitted work should appropriately acknowledge external:
+
+- Sources
+- Code
+- Datasets
+- Libraries
+- Models
+- Generative AI tools
+
+Coursework should comply with Swinburne University's academic integrity requirements.
+
+## Disclaimer
+
+This is a personal student repository for:
+
+**COS30082 — Applied Machine Learning**
+Swinburne University of Technology
